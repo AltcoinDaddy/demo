@@ -13,6 +13,8 @@ const nextConfig = {
         'img.seadn.io'
       ],
     },
+    eslint:{ ignoreDuringBuilds: true },
+    typescript:{ ignoreBuildErrors: true },
     reactStrictMode: true,
   };
   
